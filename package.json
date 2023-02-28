@@ -34,7 +34,7 @@
     "build:dev": "webpack --mode=development --config webpack.config.build.js",
     "test": "jest",
     "start": "webpack serve --open --config webpack.config.dev-server.js",
-    "prepare": "npm build"
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
